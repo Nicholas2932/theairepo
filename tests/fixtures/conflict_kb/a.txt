@@ -1,0 +1,8 @@
+Title: Password reset and account recovery
+Section: Account security
+
+To reset your password, select "Forgot password" on the login page and enter your registered email.
+The password reset link is valid for 30 minutes after it is sent.
+If the reset link has expired, request a new link from the login page.
+If two-factor authentication is enabled, you also need a code from your authenticator app or one of your backup codes.
+If backup codes are unavailable, contact customer support to verify your identity.

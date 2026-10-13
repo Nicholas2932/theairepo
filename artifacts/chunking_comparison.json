@@ -1,0 +1,59 @@
+{
+  "primary_strategy": "sentence_window",
+  "strategies": [
+    {
+      "name": "sentence_window",
+      "params": {
+        "max_chars": 300
+      },
+      "num_chunks": 8,
+      "avg_chunk_chars": 178.625,
+      "summary": {
+        "top3_hit_rate": 1.0,
+        "top3_full_hit_rate": 1.0,
+        "hits": 5,
+        "partial_hits": 0,
+        "misses": 0,
+        "mrr": 1.0,
+        "answer_point_recall_top3": 1.0
+      }
+    },
+    {
+      "name": "paragraph",
+      "params": {
+        "max_chars_hard": 1200
+      },
+      "num_chunks": 4,
+      "avg_chunk_chars": 358.25,
+      "summary": {
+        "top3_hit_rate": 1.0,
+        "top3_full_hit_rate": 1.0,
+        "hits": 5,
+        "partial_hits": 0,
+        "misses": 0,
+        "mrr": 1.0,
+        "answer_point_recall_top3": 1.0
+      }
+    },
+    {
+      "name": "fixed_size",
+      "params": {
+        "size": 200,
+        "overlap": 40
+      },
+      "num_chunks": 9,
+      "avg_chunk_chars": 179.111111,
+      "summary": {
+        "top3_hit_rate": 1.0,
+        "top3_full_hit_rate": 1.0,
+        "hits": 5,
+        "partial_hits": 0,
+        "misses": 0,
+        "mrr": 1.0,
+        "answer_point_recall_top3": 1.0
+      }
+    }
+  ],
+  "tradeoff_explanation": "top-3 title hit rate: all strategies tie at 1.000. MRR: all strategies tie at 1.000. answer-point recall in the top 3: all strategies tie at 1.000. sentence_window gives the smallest chunks (8 chunks, avg 179 chars): tighter citations, less context per chunk. paragraph gives the largest (4 chunks, avg 358 chars): more context, coarser citations and more unrelated text competing in each chunk. Primary strategy for this run: sentence_window.",
+  "caveat": "Measured on 4 documents and 5 queries. At this size differences are anecdotal, and title-level hit rate cannot separate strategies when each document fits in a handful of chunks; treat MRR and answer-point recall as tie-breakers only."
+}

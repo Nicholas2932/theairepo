@@ -1,0 +1,32 @@
+[
+  {
+    "query_id": "Q1",
+    "question": "How long do bank withdrawals take after approval?",
+    "expected_doc_titles": ["Cash withdrawal processing"],
+    "ground_truth_answer_points": ["Bank withdrawals may take 1 to 3 business days after approval"]
+  },
+  {
+    "query_id": "Q2",
+    "question": "My password reset link from yesterday isn't working. What should I do?",
+    "expected_doc_titles": ["Password reset and account recovery"],
+    "ground_truth_answer_points": ["If the reset link has expired, request a new link from the login page"]
+  },
+  {
+    "query_id": "Q3",
+    "question": "Can I withdraw the profits I made on my demo account?",
+    "expected_doc_titles": ["Demo account behaviour"],
+    "ground_truth_answer_points": ["Profits made on a demo account cannot be withdrawn"]
+  },
+  {
+    "query_id": "Q4",
+    "question": "Are mobile phone bills accepted as proof of address?",
+    "expected_doc_titles": ["Proof of address requirements"],
+    "ground_truth_answer_points": ["Mobile phone bills are not accepted as proof of address"]
+  },
+  {
+    "query_id": "Q5",
+    "question": "I lost my phone and my backup codes are unavailable. How can I get into my account?",
+    "expected_doc_titles": ["Password reset and account recovery"],
+    "ground_truth_answer_points": ["Contact customer support to verify your identity"]
+  }
+]

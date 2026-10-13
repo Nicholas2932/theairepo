@@ -1,0 +1,7 @@
+Title: Demo account behaviour
+Section: Trading
+
+Demo accounts use virtual funds and are intended for practice only.
+Profits made on a demo account cannot be withdrawn or transferred to a real account.
+You can reset your demo balance to 10,000 USD at any time from the account dashboard.
+Demo prices follow the same market feed as real accounts, but demo trades are never sent to the market.

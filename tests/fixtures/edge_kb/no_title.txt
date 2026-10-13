@@ -1,0 +1,2 @@
+Some opening line without a title header.
+It has a second sentence.

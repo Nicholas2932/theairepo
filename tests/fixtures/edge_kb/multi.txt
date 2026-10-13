@@ -1,0 +1,7 @@
+Title: Multi section guide
+
+Intro text with no section header.
+Section: Fees
+Fees are charged monthly.
+Section: Limits
+Daily limits reset at midnight. Prices in € and été text.

@@ -1,0 +1,5 @@
+Title: Account security FAQ
+Section: Security
+
+The password reset link is valid for 60 minutes after it is sent.
+Never share your password with anyone.

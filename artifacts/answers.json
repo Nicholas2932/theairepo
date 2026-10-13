@@ -1,0 +1,62 @@
+[
+  {
+    "query_id": "Q1",
+    "answer_label": "grounded_answer",
+    "answer": "Bank withdrawals may take 1 to 3 business days after approval. [Cash withdrawal processing §chunk_1]",
+    "citations": [
+      "[Cash withdrawal processing §chunk_1]"
+    ],
+    "used_chunk_ids": [
+      "chunk_1"
+    ],
+    "generator": "llm_fallback_extractive"
+  },
+  {
+    "query_id": "Q2",
+    "answer_label": "grounded_answer",
+    "answer": "The password reset link is valid for 30 minutes after it is sent. [Password reset and account recovery §chunk_5] If the reset link has expired, request a new link from the login page. [Password reset and account recovery §chunk_5]",
+    "citations": [
+      "[Password reset and account recovery §chunk_5]"
+    ],
+    "used_chunk_ids": [
+      "chunk_5"
+    ],
+    "generator": "llm_fallback_extractive"
+  },
+  {
+    "query_id": "Q3",
+    "answer_label": "grounded_answer",
+    "answer": "Profits made on a demo account cannot be withdrawn or transferred to a real account. [Demo account behaviour §chunk_3]",
+    "citations": [
+      "[Demo account behaviour §chunk_3]"
+    ],
+    "used_chunk_ids": [
+      "chunk_3"
+    ],
+    "generator": "llm_fallback_extractive"
+  },
+  {
+    "query_id": "Q4",
+    "answer_label": "grounded_answer",
+    "answer": "Mobile phone bills and screenshots are not accepted as proof of address. [Proof of address requirements §chunk_7]",
+    "citations": [
+      "[Proof of address requirements §chunk_7]"
+    ],
+    "used_chunk_ids": [
+      "chunk_7"
+    ],
+    "generator": "llm_fallback_extractive"
+  },
+  {
+    "query_id": "Q5",
+    "answer_label": "grounded_answer",
+    "answer": "If two-factor authentication is enabled, you also need a code from your authenticator app or one of your backup codes. [Password reset and account recovery §chunk_6] If backup codes are unavailable, contact customer support to verify your identity. [Password reset and account recovery §chunk_6]",
+    "citations": [
+      "[Password reset and account recovery §chunk_6]"
+    ],
+    "used_chunk_ids": [
+      "chunk_6"
+    ],
+    "generator": "llm_fallback_extractive"
+  }
+]

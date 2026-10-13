@@ -1,0 +1,4 @@
+Title: Multi section guide
+Section: Other
+
+A different document with a duplicate title.

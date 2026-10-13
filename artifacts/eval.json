@@ -1,0 +1,119 @@
+{
+  "summary": {
+    "top3_hit_rate": 1.0,
+    "top3_full_hit_rate": 1.0,
+    "total_queries": 5,
+    "answerable_queries": 5,
+    "hits": 5,
+    "partial_hits": 0,
+    "misses": 0,
+    "vacuous_hits": 0,
+    "mrr": 1.0,
+    "answer_point_recall_top3": 1.0,
+    "k": 3,
+    "hit_rate_denominator": "answerable_queries"
+  },
+  "results": [
+    {
+      "query_id": "Q1",
+      "expected_doc_titles": [
+        "Cash withdrawal processing"
+      ],
+      "retrieved_doc_titles_top3": [
+        "Cash withdrawal processing",
+        "Proof of address requirements"
+      ],
+      "retrieval_status": "hit",
+      "matched_expected_title": true,
+      "explanation": "Expected title found at rank 1",
+      "first_match_rank": 1,
+      "answer_points_covered_top3": [
+        {
+          "point": "Bank withdrawals may take 1 to 3 business days after approval",
+          "covered": true
+        }
+      ]
+    },
+    {
+      "query_id": "Q2",
+      "expected_doc_titles": [
+        "Password reset and account recovery"
+      ],
+      "retrieved_doc_titles_top3": [
+        "Password reset and account recovery",
+        "Demo account behaviour"
+      ],
+      "retrieval_status": "hit",
+      "matched_expected_title": true,
+      "explanation": "Expected title found at rank 1",
+      "first_match_rank": 1,
+      "answer_points_covered_top3": [
+        {
+          "point": "If the reset link has expired, request a new link from the login page",
+          "covered": true
+        }
+      ]
+    },
+    {
+      "query_id": "Q3",
+      "expected_doc_titles": [
+        "Demo account behaviour"
+      ],
+      "retrieved_doc_titles_top3": [
+        "Demo account behaviour",
+        "Cash withdrawal processing"
+      ],
+      "retrieval_status": "hit",
+      "matched_expected_title": true,
+      "explanation": "Expected title found at rank 1",
+      "first_match_rank": 1,
+      "answer_points_covered_top3": [
+        {
+          "point": "Profits made on a demo account cannot be withdrawn",
+          "covered": true
+        }
+      ]
+    },
+    {
+      "query_id": "Q4",
+      "expected_doc_titles": [
+        "Proof of address requirements"
+      ],
+      "retrieved_doc_titles_top3": [
+        "Proof of address requirements",
+        "Demo account behaviour"
+      ],
+      "retrieval_status": "hit",
+      "matched_expected_title": true,
+      "explanation": "Expected title found at rank 1",
+      "first_match_rank": 1,
+      "answer_points_covered_top3": [
+        {
+          "point": "Mobile phone bills are not accepted as proof of address",
+          "covered": true
+        }
+      ]
+    },
+    {
+      "query_id": "Q5",
+      "expected_doc_titles": [
+        "Password reset and account recovery"
+      ],
+      "retrieved_doc_titles_top3": [
+        "Password reset and account recovery",
+        "Demo account behaviour",
+        "Proof of address requirements"
+      ],
+      "retrieval_status": "hit",
+      "matched_expected_title": true,
+      "explanation": "Expected title found at rank 1",
+      "first_match_rank": 1,
+      "answer_points_covered_top3": [
+        {
+          "point": "Contact customer support to verify your identity",
+          "covered": true
+        }
+      ]
+    }
+  ]
+}

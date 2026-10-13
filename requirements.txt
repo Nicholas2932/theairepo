@@ -1,0 +1,4 @@
+# Runtime: Python 3.10+ standard library only. Nothing to install.
+#
+# Development only (not needed to run the pipeline):
+#   pytest

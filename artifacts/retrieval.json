@@ -1,0 +1,332 @@
+[
+  {
+    "query_id": "Q1",
+    "question": "How long do bank withdrawals take after approval?",
+    "top_k": [
+      {
+        "rank": 1,
+        "chunk_id": "chunk_1",
+        "doc_title": "Cash withdrawal processing",
+        "score": 1.0,
+        "chunk_text": "Withdrawal requests submitted before 17:00 UTC are usually reviewed on the same business day.\nBank withdrawals may take 1 to 3 business days after approval.\nE-wallet withdrawals are usually completed within 4 hours after approval.",
+        "section": "Payments",
+        "score_components": {
+          "bm25": 1.0,
+          "ngram": 1.0
+        }
+      },
+      {
+        "rank": 2,
+        "chunk_id": "chunk_2",
+        "doc_title": "Cash withdrawal processing",
+        "score": 0.336697,
+        "chunk_text": "Withdrawals are sent to the same payment method used for the deposit where possible.",
+        "section": "Payments",
+        "score_components": {
+          "bm25": 0.304239,
+          "ngram": 0.412433
+        }
+      },
+      {
+        "rank": 3,
+        "chunk_id": "chunk_7",
+        "doc_title": "Proof of address requirements",
+        "score": 0.12441,
+        "chunk_text": "To verify your address, upload a utility bill, bank statement or official government letter.\nDocuments must show your full name and residential address and be dated within the last 6 months.\nMobile phone bills and screenshots are not accepted as proof of address.",
+        "section": "Verification",
+        "score_components": {
+          "bm25": 0.150714,
+          "ngram": 0.063036
+        }
+      },
+      {
+        "rank": 4,
+        "chunk_id": "chunk_3",
+        "doc_title": "Demo account behaviour",
+        "score": 0.020507,
+        "chunk_text": "Demo accounts use virtual funds and are intended for practice only.\nProfits made on a demo account cannot be withdrawn or transferred to a real account.\nYou can reset your demo balance to 10,000 USD at any time from the account dashboard.",
+        "section": "Trading",
+        "score_components": {
+          "bm25": 0.0,
+          "ngram": 0.068356
+        }
+      },
+      {
+        "rank": 5,
+        "chunk_id": "chunk_8",
+        "doc_title": "Proof of address requirements",
+        "score": 0.007398,
+        "chunk_text": "Address verification is usually completed within 1 business day of upload.",
+        "section": "Verification",
+        "score_components": {
+          "bm25": 0.0,
+          "ngram": 0.024661
+        }
+      }
+    ]
+  },
+  {
+    "query_id": "Q2",
+    "question": "My password reset link from yesterday isn't working. What should I do?",
+    "top_k": [
+      {
+        "rank": 1,
+        "chunk_id": "chunk_5",
+        "doc_title": "Password reset and account recovery",
+        "score": 1.0,
+        "chunk_text": "To reset your password, select \"Forgot password\" on the login page and enter your registered email.\nThe password reset link is valid for 30 minutes after it is sent.\nIf the reset link has expired, request a new link from the login page.",
+        "section": "Account security",
+        "score_components": {
+          "bm25": 1.0,
+          "ngram": 1.0
+        }
+      },
+      {
+        "rank": 2,
+        "chunk_id": "chunk_6",
+        "doc_title": "Password reset and account recovery",
+        "score": 0.299485,
+        "chunk_text": "If two-factor authentication is enabled, you also need a code from your authenticator app or one of your backup codes.\nIf backup codes are unavailable, contact customer support to verify your identity.",
+        "section": "Account security",
+        "score_components": {
+          "bm25": 0.334523,
+          "ngram": 0.21773
+        }
+      },
+      {
+        "rank": 3,
+        "chunk_id": "chunk_3",
+        "doc_title": "Demo account behaviour",
+        "score": 0.111271,
+        "chunk_text": "Demo accounts use virtual funds and are intended for practice only.\nProfits made on a demo account cannot be withdrawn or transferred to a real account.\nYou can reset your demo balance to 10,000 USD at any time from the account dashboard.",
+        "section": "Trading",
+        "score_components": {
+          "bm25": 0.131851,
+          "ngram": 0.063252
+        }
+      },
+      {
+        "rank": 4,
+        "chunk_id": "chunk_4",
+        "doc_title": "Demo account behaviour",
+        "score": 0.004776,
+        "chunk_text": "Demo prices follow the same market feed as real accounts, but demo trades are never sent to the market.",
+        "section": "Trading",
+        "score_components": {
+          "bm25": 0.0,
+          "ngram": 0.01592
+        }
+      },
+      {
+        "rank": 5,
+        "chunk_id": "chunk_7",
+        "doc_title": "Proof of address requirements",
+        "score": 0.002948,
+        "chunk_text": "To verify your address, upload a utility bill, bank statement or official government letter.\nDocuments must show your full name and residential address and be dated within the last 6 months.\nMobile phone bills and screenshots are not accepted as proof of address.",
+        "section": "Verification",
+        "score_components": {
+          "bm25": 0.0,
+          "ngram": 0.009828
+        }
+      }
+    ]
+  },
+  {
+    "query_id": "Q3",
+    "question": "Can I withdraw the profits I made on my demo account?",
+    "top_k": [
+      {
+        "rank": 1,
+        "chunk_id": "chunk_3",
+        "doc_title": "Demo account behaviour",
+        "score": 1.0,
+        "chunk_text": "Demo accounts use virtual funds and are intended for practice only.\nProfits made on a demo account cannot be withdrawn or transferred to a real account.\nYou can reset your demo balance to 10,000 USD at any time from the account dashboard.",
+        "section": "Trading",
+        "score_components": {
+          "bm25": 1.0,
+          "ngram": 1.0
+        }
+      },
+      {
+        "rank": 2,
+        "chunk_id": "chunk_4",
+        "doc_title": "Demo account behaviour",
+        "score": 0.493764,
+        "chunk_text": "Demo prices follow the same market feed as real accounts, but demo trades are never sent to the market.",
+        "section": "Trading",
+        "score_components": {
+          "bm25": 0.509403,
+          "ngram": 0.457275
+        }
+      },
+      {
+        "rank": 3,
+        "chunk_id": "chunk_1",
+        "doc_title": "Cash withdrawal processing",
+        "score": 0.311991,
+        "chunk_text": "Withdrawal requests submitted before 17:00 UTC are usually reviewed on the same business day.\nBank withdrawals may take 1 to 3 business days after approval.\nE-wallet withdrawals are usually completed within 4 hours after approval.",
+        "section": "Payments",
+        "score_components": {
+          "bm25": 0.323439,
+          "ngram": 0.285278
+        }
+      },
+      {
+        "rank": 4,
+        "chunk_id": "chunk_2",
+        "doc_title": "Cash withdrawal processing",
+        "score": 0.30256,
+        "chunk_text": "Withdrawals are sent to the same payment method used for the deposit where possible.",
+        "section": "Payments",
+        "score_components": {
+          "bm25": 0.324344,
+          "ngram": 0.25173
+        }
+      },
+      {
+        "rank": 5,
+        "chunk_id": "chunk_6",
+        "doc_title": "Password reset and account recovery",
+        "score": 0.137501,
+        "chunk_text": "If two-factor authentication is enabled, you also need a code from your authenticator app or one of your backup codes.\nIf backup codes are unavailable, contact customer support to verify your identity.",
+        "section": "Account security",
+        "score_components": {
+          "bm25": 0.144064,
+          "ngram": 0.122186
+        }
+      }
+    ]
+  },
+  {
+    "query_id": "Q4",
+    "question": "Are mobile phone bills accepted as proof of address?",
+    "top_k": [
+      {
+        "rank": 1,
+        "chunk_id": "chunk_7",
+        "doc_title": "Proof of address requirements",
+        "score": 1.0,
+        "chunk_text": "To verify your address, upload a utility bill, bank statement or official government letter.\nDocuments must show your full name and residential address and be dated within the last 6 months.\nMobile phone bills and screenshots are not accepted as proof of address.",
+        "section": "Verification",
+        "score_components": {
+          "bm25": 1.0,
+          "ngram": 1.0
+        }
+      },
+      {
+        "rank": 2,
+        "chunk_id": "chunk_8",
+        "doc_title": "Proof of address requirements",
+        "score": 0.37453,
+        "chunk_text": "Address verification is usually completed within 1 business day of upload.",
+        "section": "Verification",
+        "score_components": {
+          "bm25": 0.350056,
+          "ngram": 0.431634
+        }
+      },
+      {
+        "rank": 3,
+        "chunk_id": "chunk_3",
+        "doc_title": "Demo account behaviour",
+        "score": 0.021149,
+        "chunk_text": "Demo accounts use virtual funds and are intended for practice only.\nProfits made on a demo account cannot be withdrawn or transferred to a real account.\nYou can reset your demo balance to 10,000 USD at any time from the account dashboard.",
+        "section": "Trading",
+        "score_components": {
+          "bm25": 0.0,
+          "ngram": 0.070496
+        }
+      },
+      {
+        "rank": 4,
+        "chunk_id": "chunk_1",
+        "doc_title": "Cash withdrawal processing",
+        "score": 0.014491,
+        "chunk_text": "Withdrawal requests submitted before 17:00 UTC are usually reviewed on the same business day.\nBank withdrawals may take 1 to 3 business days after approval.\nE-wallet withdrawals are usually completed within 4 hours after approval.",
+        "section": "Payments",
+        "score_components": {
+          "bm25": 0.0,
+          "ngram": 0.048302
+        }
+      },
+      {
+        "rank": 5,
+        "chunk_id": "chunk_6",
+        "doc_title": "Password reset and account recovery",
+        "score": 0.01335,
+        "chunk_text": "If two-factor authentication is enabled, you also need a code from your authenticator app or one of your backup codes.\nIf backup codes are unavailable, contact customer support to verify your identity.",
+        "section": "Account security",
+        "score_components": {
+          "bm25": 0.0,
+          "ngram": 0.044499
+        }
+      }
+    ]
+  },
+  {
+    "query_id": "Q5",
+    "question": "I lost my phone and my backup codes are unavailable. How can I get into my account?",
+    "top_k": [
+      {
+        "rank": 1,
+        "chunk_id": "chunk_6",
+        "doc_title": "Password reset and account recovery",
+        "score": 1.0,
+        "chunk_text": "If two-factor authentication is enabled, you also need a code from your authenticator app or one of your backup codes.\nIf backup codes are unavailable, contact customer support to verify your identity.",
+        "section": "Account security",
+        "score_components": {
+          "bm25": 1.0,
+          "ngram": 1.0
+        }
+      },
+      {
+        "rank": 2,
+        "chunk_id": "chunk_3",
+        "doc_title": "Demo account behaviour",
+        "score": 0.192624,
+        "chunk_text": "Demo accounts use virtual funds and are intended for practice only.\nProfits made on a demo account cannot be withdrawn or transferred to a real account.\nYou can reset your demo balance to 10,000 USD at any time from the account dashboard.",
+        "section": "Trading",
+        "score_components": {
+          "bm25": 0.156426,
+          "ngram": 0.277088
+        }
+      },
+      {
+        "rank": 3,
+        "chunk_id": "chunk_7",
+        "doc_title": "Proof of address requirements",
+        "score": 0.15929,
+        "chunk_text": "To verify your address, upload a utility bill, bank statement or official government letter.\nDocuments must show your full name and residential address and be dated within the last 6 months.\nMobile phone bills and screenshots are not accepted as proof of address.",
+        "section": "Verification",
+        "score_components": {
+          "bm25": 0.18551,
+          "ngram": 0.098112
+        }
+      },
+      {
+        "rank": 4,
+        "chunk_id": "chunk_4",
+        "doc_title": "Demo account behaviour",
+        "score": 0.145042,
+        "chunk_text": "Demo prices follow the same market feed as real accounts, but demo trades are never sent to the market.",
+        "section": "Trading",
+        "score_components": {
+          "bm25": 0.135751,
+          "ngram": 0.166719
+        }
+      },
+      {
+        "rank": 5,
+        "chunk_id": "chunk_5",
+        "doc_title": "Password reset and account recovery",
+        "score": 0.103404,
+        "chunk_text": "To reset your password, select \"Forgot password\" on the login page and enter your registered email.\nThe password reset link is valid for 30 minutes after it is sent.\nIf the reset link has expired, request a new link from the login page.",
+        "section": "Account security",
+        "score_components": {
+          "bm25": 0.108449,
+          "ngram": 0.091633
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,133 @@
+{
+  "summary": {
+    "total": 5,
+    "passed": 5,
+    "failed": 0,
+    "not_applicable": 0,
+    "pass_rate": 1.0
+  },
+  "results": [
+    {
+      "query_id": "Q1",
+      "answer_label": "grounded_answer",
+      "status": "pass",
+      "citations_checked": [
+        {
+          "citation": "[Cash withdrawal processing §chunk_1]",
+          "chunk_id": "chunk_1",
+          "in_retrieval": true,
+          "title_matches": true
+        }
+      ],
+      "sentences": [
+        {
+          "text": "Bank withdrawals may take 1 to 3 business days after approval.",
+          "token_recall": 1.0,
+          "numbers_supported": true,
+          "supported": true
+        }
+      ],
+      "reasons": []
+    },
+    {
+      "query_id": "Q2",
+      "answer_label": "grounded_answer",
+      "status": "pass",
+      "citations_checked": [
+        {
+          "citation": "[Password reset and account recovery §chunk_5]",
+          "chunk_id": "chunk_5",
+          "in_retrieval": true,
+          "title_matches": true
+        }
+      ],
+      "sentences": [
+        {
+          "text": "The password reset link is valid for 30 minutes after it is sent.",
+          "token_recall": 1.0,
+          "numbers_supported": true,
+          "supported": true
+        },
+        {
+          "text": "If the reset link has expired, request a new link from the login page.",
+          "token_recall": 1.0,
+          "numbers_supported": true,
+          "supported": true
+        }
+      ],
+      "reasons": []
+    },
+    {
+      "query_id": "Q3",
+      "answer_label": "grounded_answer",
+      "status": "pass",
+      "citations_checked": [
+        {
+          "citation": "[Demo account behaviour §chunk_3]",
+          "chunk_id": "chunk_3",
+          "in_retrieval": true,
+          "title_matches": true
+        }
+      ],
+      "sentences": [
+        {
+          "text": "Profits made on a demo account cannot be withdrawn or transferred to a real account.",
+          "token_recall": 1.0,
+          "numbers_supported": true,
+          "supported": true
+        }
+      ],
+      "reasons": []
+    },
+    {
+      "query_id": "Q4",
+      "answer_label": "grounded_answer",
+      "status": "pass",
+      "citations_checked": [
+        {
+          "citation": "[Proof of address requirements §chunk_7]",
+          "chunk_id": "chunk_7",
+          "in_retrieval": true,
+          "title_matches": true
+        }
+      ],
+      "sentences": [
+        {
+          "text": "Mobile phone bills and screenshots are not accepted as proof of address.",
+          "token_recall": 1.0,
+          "numbers_supported": true,
+          "supported": true
+        }
+      ],
+      "reasons": []
+    },
+    {
+      "query_id": "Q5",
+      "answer_label": "grounded_answer",
+      "status": "pass",
+      "citations_checked": [
+        {
+          "citation": "[Password reset and account recovery §chunk_6]",
+          "chunk_id": "chunk_6",
+          "in_retrieval": true,
+          "title_matches": true
+        }
+      ],
+      "sentences": [
+        {
+          "text": "If two-factor authentication is enabled, you also need a code from your authenticator app or one of your backup codes.",
+          "token_recall": 1.0,
+          "numbers_supported": true,
+          "supported": true
+        },
+        {
+          "text": "If backup codes are unavailable, contact customer support to verify your identity.",
+          "token_recall": 1.0,
+          "numbers_supported": true,
+          "supported": true
+        }
+      ],
+      "reasons": []
+    }
+  ]
+}

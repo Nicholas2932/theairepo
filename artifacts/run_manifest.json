@@ -1,0 +1,105 @@
+{
+  "pipeline_version": "1.0.0",
+  "status": "ok",
+  "final_state": "RESULTS_FINALISED",
+  "generated_at": "2026-10-13T02:22:43.751038Z",
+  "stage_log": [
+    {
+      "stage": "INIT",
+      "entered_at": "2026-10-13T02:22:40.450293Z"
+    },
+    {
+      "stage": "DOCUMENTS_LOADED",
+      "entered_at": "2026-10-13T02:22:40.634763Z"
+    },
+    {
+      "stage": "DOCUMENTS_CHUNKED",
+      "entered_at": "2026-10-13T02:22:40.641823Z"
+    },
+    {
+      "stage": "INDEX_BUILT",
+      "entered_at": "2026-10-13T02:22:40.646372Z"
+    },
+    {
+      "stage": "RETRIEVAL_COMPLETE",
+      "entered_at": "2026-10-13T02:22:40.651912Z"
+    },
+    {
+      "stage": "ANSWERS_GENERATED",
+      "entered_at": "2026-10-13T02:22:43.484076Z"
+    },
+    {
+      "stage": "EVALUATION_COMPLETE",
+      "entered_at": "2026-10-13T02:22:43.547287Z"
+    },
+    {
+      "stage": "VALIDATION_COMPLETE",
+      "entered_at": "2026-10-13T02:22:43.750026Z"
+    },
+    {
+      "stage": "RESULTS_FINALISED",
+      "entered_at": "2026-10-13T02:22:43.751038Z"
+    }
+  ],
+  "inputs": {
+    "kb_dir": "kb",
+    "num_documents": 4,
+    "num_kb_files": 4,
+    "queries_path": "queries.json",
+    "num_queries": 5,
+    "kb_fingerprint": "sha256:8f0e9e14c2b74c14199abe75a64467a330b8e43960b3267402ad9db56afbca10"
+  },
+  "config": {
+    "chunking": "sentence_window",
+    "chunking_params": {
+      "max_chars": 300
+    },
+    "top_k": 5,
+    "eval_k": 3,
+    "bm25": {
+      "k1": 1.5,
+      "b": 0.75
+    },
+    "ngram_n": 4,
+    "weights": {
+      "bm25": 0.7,
+      "ngram": 0.3
+    },
+    "sufficiency": {
+      "tau_cov": 0.5,
+      "tau_idf_ratio": 0.4
+    },
+    "conflict": {
+      "top_n": 3,
+      "rel_floor": 0.25,
+      "jaccard": 0.8
+    },
+    "extractive": {
+      "max_sentences": 2,
+      "keep_ratio": 0.6,
+      "rank_bonus": 0.05
+    }
+  },
+  "answer_generator": "llm",
+  "llm": {
+    "provider": "gemini",
+    "model": "gemini-2.5-flash"
+  },
+  "artifacts_written": [
+    "chunks.json",
+    "retrieval.json",
+    "answers.json",
+    "llm_calls.jsonl",
+    "eval.json",
+    "chunking_comparison.json",
+    "grounding_check.json",
+    "run_manifest.json"
+  ],
+  "warnings": [
+    "query Q1: LLM output rejected, extractive fallback used",
+    "query Q2: LLM output rejected, extractive fallback used",
+    "query Q3: LLM output rejected, extractive fallback used",
+    "query Q4: LLM output rejected, extractive fallback used",
+    "query Q5: LLM output rejected, extractive fallback used"
+  ]
+}
